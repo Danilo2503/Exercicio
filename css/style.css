@@ -1,0 +1,79 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+.conteiner{
+    width: 100%;
+}
+
+.topoUm{
+    height: 40px;
+    background-color: aquamarine;
+}
+
+.topoUm ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
+
+.topoDois{
+    height: 90px;
+    background-color: brown;
+}
+
+.topoDois ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+    height: 60px;
+}
+
+section{
+    width: 850px;
+}
+
+section .noticia{
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+    margin-left: 300px;
+    margin-bottom: 80px;
+    margin-top: 15px;
+    height: 500px;
+}
+
+aside .noticia2{
+    width: 700px;
+    background-color: crimson;
+    display: flex;
+    justify-content: center;
+    margin-left: 900px;
+    margin-top: -500px;
+    height: 250px;
+}
+
+aside .noticia3{
+    width: 700px;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    margin-left: 900px;
+    height: 250px;
+}
+
+.agenda{
+    height: 60px;
+    width: 1300px;
+    background-color: darkorange;
+    margin-left: 300px;
+    margin-top: 50px;
+}
+
+.agenda ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-between;
+}
